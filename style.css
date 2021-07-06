@@ -1,5 +1,6 @@
 body{
     font-family: 'Yomogi', cursive;
+    margin: 0px;
 }
 h1{
     font-size: 40px;
@@ -25,4 +26,8 @@ section{
     padding: 1% ;
     border-radius: 3px;
 
+}
+.top-banner{
+    background-image: url(images/top-banner.png);
+    background-repeat: no-repeat;
 }
