@@ -1,6 +1,9 @@
 body{
     font-family: 'Yomogi', cursive;
-    margin: 0px;
+    margin:auto;
+}
+p{
+    text-align: justify;
 }
 h1{
     font-size: 40px;
@@ -10,10 +13,11 @@ h1{
 }
 section{
     display: flex;
+    margin-bottom: 200px;
 }
 .half-width{
     width: 50%;
-    padding-left: 10%;
+    padding-left: 5%;
 }
 .half-width img{
     width: 60%;
@@ -21,13 +25,18 @@ section{
 .link-button{
     text-decoration: none;
     background-image: linear-gradient(orange,tomato);
-    color: powderblue;
+    color: rgb(38, 101, 196);
     font-weight: 700;
     padding: 1% ;
-    border-radius: 3px;
+    border-radius: 13px;
 
 }
 .top-banner{
     background-image: url(images/top-banner.png);
     background-repeat: no-repeat;
+}
+.dream-big{
+    background-image: url(images/dream-bg.png);
+    background-repeat: no-repeat;
+    background-position: right;
 }
